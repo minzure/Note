@@ -7,14 +7,28 @@
   margin-top: 50px;
 }
 .background {
-  background-color: #2f3233;
+  background-color: darkcyan;
 }
 .author {
   font-size: 30px;
   font-weight: 400;
-  position: absolute;
-  margin-top: 20%;
+  position: relative;
+  margin-top: 7rem;
   margin-left: 45%;
   font-family: "Noto Sans KR", sans-serif;
+  font-style: italic;
   color: #ffff;
+}
+#join {
+  position: relative;
+  margin-left: 40%;
+  margin-top: 3rem;
+  font-size: 100px;
+  font-weight: 600;
+  background-color: midnightblue;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  border-style: solid;
+  border-radius: 0px;
+  border-color: black;
 }

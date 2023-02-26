@@ -4,8 +4,18 @@
   <head>
     <title>Test Page</title>
     <link href="index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script src="index.js"></script>
+    <noscript>
+      현재 사용중인 브라우저에서 자바스크립트 기능을 사용할 수가 없습니다
+    </noscript>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap"
       rel="stylesheet"
@@ -13,10 +23,16 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </head>
   <body class="background">
-    <div>
+    <div class="animate__animated animate__bounce">
       <h1 class="title">Github Commit <strong>Challenge</strong></h1>
     </div>
-    <img src="img/github.png" style="margin-left: 30%" ; />
-    <div class="author">Minzure</div>
+
+    <button id="join" onclick="clicked()">Join</button>
+    <!-- <span><img src="img/github.png" width="100px" height="100px" /></span> -->
+
+    <footer>
+      <div class="author">Minzure</div>
+    </footer>
+    <div class="next"></div>
   </body>
 </html>
